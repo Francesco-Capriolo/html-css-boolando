@@ -1,0 +1,71 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* contenitore e position*/
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.relative{
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* varie immagini */
+.item {
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+}
+
+
+
+.back-ground {
+    Background-size: cover;
+    background-position: center;
+}
+
+.first-levis {
+    background-image: url(../img/1.webp);
+}
+
+.first-levis:hover {
+    background-image: url(../img/1b.webp);
+}
+
+/* sconti */
+
+.discount {
+    left: 0;
+    background-color: red;
+}
+
+.ab-bottom{
+    bottom: 30px;
+    padding: 5px;
+    color: white;
+}
+.sost{
+    background-color: green;
+    left: 40px;
+}
+
+/* entity cuore */
+
+.heart{
+    right: 0;
+    top: 20px;
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+
+}
