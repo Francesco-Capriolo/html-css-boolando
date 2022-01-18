@@ -8,9 +8,8 @@
 /* contenitore e position*/
 
 #container {
-    width: 80%;
     margin: 0 auto;
-    text-align: center;
+    width: 90%;
 }
 .relative{
     position: relative;
@@ -21,13 +20,12 @@
 }
 
 /* varie immagini */
+
 .item {
     width: 350px;
     height: 500px;
     display: inline-block;
 }
-
-
 
 .back-ground {
     Background-size: cover;
@@ -67,5 +65,27 @@
     background-color: white;
     padding: 20px;
     font-size: 30px;
-
 }
+
+/* descrizione del prodotto */
+
+.description{
+    top: 500px;
+}
+
+.text-small{
+    font-size: small;
+}
+.name-item{
+    font-weight: bold;
+}
+
+.cost{
+    color: red;
+    
+}
+
+.ex-cost{
+    text-decoration: line-through;
+}
+
