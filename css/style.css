@@ -8,9 +8,15 @@
 /* contenitore e position*/
 
 #container {
-    margin: 20px auto;
-    width: 90%;
+    margin: auto;
+    width: 80%;
+
 }
+
+.content-item{
+    margin-bottom: 30px;
+}
+
 .relative{
     position: relative;
 }
@@ -41,12 +47,14 @@
 .first-img:hover {
     background-image: url(../img/1b.webp);
 }
+
 /*  seconda immagine con hover */
+
 .second-img{
     background-image: url(../img/2.webp);
 }
 
-.second-img{
+.second-img:hover{
     background-image: url(../img/2b.webp);
 }
 
@@ -56,8 +64,38 @@
     background-image: url(../img/3.webp);
 }
 
-.third-img{
+.third-img:hover{
     background-image: url(../img/3b.webp);
+}
+
+/* quarta immagine */
+
+.fourth-img{
+    background-image: url(../img/4.webp);
+}
+
+.fourth-img:hover{
+    background-image: url(../img/4b.webp);
+}
+
+/* quinta immagine */
+
+.fifth-img{
+    background-image: url(../img/5.webp);
+}
+
+.fifth-img:hover{
+    background-image: url(../img/5b.webp);
+}
+
+/* sesta immagine */
+
+.sixth-img{
+    background-image: url(../img/6.webp);
+}
+
+.sixth-img:hover{
+    background-image: url(../img/6b.webp);
 }
 
 /* sconti */
@@ -89,23 +127,23 @@
 
 /* descrizione del prodotto */
 
-.description{
+.description {
     top: 500px;
 }
 
-.text-small{
+.text-small {
     font-size: small;
 }
-.name-item{
+
+.name-item {
     font-weight: bold;
 }
 
-.cost{
+.cost {
     color: red;
-    
 }
 
-.ex-cost{
+.ex-cost {
     text-decoration: line-through;
 }
 
