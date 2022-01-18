@@ -127,7 +127,18 @@
     background-color: white;
     padding: 20px;
     font-size: 30px;
+    display: none;
 }
+
+.content-item:hover .heart{
+    display: inline;
+}
+
+.content-item:active .heart {
+    display: inline;
+    color: red;
+}
+
 
 /* descrizione del prodotto */
 
@@ -149,4 +160,8 @@
 
 .ex-cost {
     text-decoration: line-through;
+}
+
+.description:hover{
+    background-color: palevioletred;
 }
