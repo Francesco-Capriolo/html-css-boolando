@@ -12,17 +12,19 @@
     width: 1100px;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
 .absolute {
     position: absolute;
 }
-.content-item{
+
+.content-item {
     display: inline-block;
     margin-bottom: 20px;
 }
+
 /* varie immagini */
 
 .item {
@@ -35,6 +37,7 @@
     Background-size: cover;
     background-position: center;
 }
+
 /* prima immagine con hover */
 .first-img {
     background-image: url(../img/1.webp);
@@ -46,51 +49,51 @@
 
 /*  seconda immagine con hover */
 
-.second-img{
+.second-img {
     background-image: url(../img/2.webp);
 }
 
-.second-img:hover{
+.second-img:hover {
     background-image: url(../img/2b.webp);
 }
 
 /* terza immagine */
 
-.third-img{
+.third-img {
     background-image: url(../img/3.webp);
 }
 
-.third-img:hover{
+.third-img:hover {
     background-image: url(../img/3b.webp);
 }
 
 /* quarta immagine */
 
-.fourth-img{
+.fourth-img {
     background-image: url(../img/4.webp);
 }
 
-.fourth-img:hover{
+.fourth-img:hover {
     background-image: url(../img/4b.webp);
 }
 
 /* quinta immagine */
 
-.fifth-img{
+.fifth-img {
     background-image: url(../img/5.webp);
 }
 
-.fifth-img:hover{
+.fifth-img:hover {
     background-image: url(../img/5b.webp);
 }
 
 /* sesta immagine */
 
-.sixth-img{
+.sixth-img {
     background-image: url(../img/6.webp);
 }
 
-.sixth-img:hover{
+.sixth-img:hover {
     background-image: url(../img/6b.webp);
 }
 
@@ -101,24 +104,24 @@
     background-color: red;
 }
 
-.ab-bottom{
+.ab-bottom {
     bottom: 30px;
     padding: 5px;
     color: white;
 }
-.sost{
+
+.sost {
     background-color: green;
     left: 40px;
 }
 
-.only {
+.only{
     left: 0;
 }
 
-
 /* entity cuore */
 
-.heart{
+.heart {
     right: 0;
     top: 20px;
     background-color: white;
@@ -147,4 +150,3 @@
 .ex-cost {
     text-decoration: line-through;
 }
-
