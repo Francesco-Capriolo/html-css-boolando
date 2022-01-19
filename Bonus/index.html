@@ -5,193 +5,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boolando</title>
+    <title>Boolando livecoding</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <section id="container" class="relative">
+    <!-- Contenitore generale -->
+    <div class="container">
 
-        <!-- prima immagine con relativi position all'interno-->
-        <div class="content-item">
-            <div class="item first-img back-ground relative">
-                <span class="discount absolute ab-bottom">
-                    50%
-                </span>
-                <span class="sost absolute ab-bottom">
-                    Sostenibilità
-                </span>
-                <span class="heart absolute">
-                    &hearts;
-                </span>
+        <!-- Contenitore del singolo prodotto e card -->
 
+        <div class="card">
 
+            <!-- Contenitore delle varie immagini della card/prodotto-->
+
+            <div class="card-img">
+                <img class="first-img" src="img/1.webp" alt="Foto di una camicia">
+                <img class="second-img" src="img/1b.webp" alt="Seconda foto di una camicia">
+                <div class="card-heart absolute">&hearts;</div>
+                <div class="card-promo absolute">
+                    <span class="card-discount">-50%</span>
+                    <span class="card-tag">Sostenibilità</span>
+                </div>
             </div>
-            <div class="description">
-                <span class="mention text-small">
-                    Levi's <br>
-                    <span class="name-item">
-                        RELAXED FIT TEE UNISEX
-                    </span>
-                    <br>
-                    <span class="cost text-small">
-                        14,99€
-                    </span>
-                    <span class="ex-cost text-small">
-                        29.99€
-                    </span>
 
-                </span>
+            <!-- Contenitore delle varie informazioni descrittive della card/prodotto -->
+
+            <div class="card-text">
+                <span class="card-brand">Levi's</span>
+                <h3 class="card-product-name">Relaxed Fit Tee Unisex</h3>
+                <span class="card-price">14,99 &euro;</span>
+                <del class="card-original-price">29,99 &euro;</del>
             </div>
         </div>
 
-        <!-- seconda immagine con relativi position all'interno-->
+        <div class="card">
 
-        <div class="content-item">
-            <div class="item second-img back-ground relative">
-                <span class="discount absolute ab-bottom">
-                    30%
-                </span>
-                <span class="heart absolute">
-                    &hearts;
-                </span>
+            <!-- Contenitore delle varie immagini della card/prodotto-->
 
-
+            <div class="card-img">
+                <img class="first-img" src="img/2.webp" alt="prima foto di un vestito">
+                <img class="second-img" src="img/2b.webp" alt="Seconda foto di un vestito">
+                <div class="card-heart absolute">&hearts;</div>
+                <div class="card-promo absolute">
+                    <span class="card-discount">-30%</span>
+                </div>
             </div>
-            <div class="description">
-                <span class="mention text-small">
-                    Guess <br>
-                    <span class="name-item">
-                        ROSES TEE
-                    </span>
-                    <br>
-                    <span class="cost text-small">
-                        20,99
-                    </span>
-                    <span class="ex-cost text-small">
-                        29.99€
-                    </span>
 
-                </span>
+            <!-- Contenitore delle varie informazioni descrittive della card/prodotto -->
+        
+            <div class="card-text">
+                <span class="card-brand">Guess</span>
+                <h3 class="card-product-name">Roses Tee</h3>
+                <span class="card-price">20,99 &euro;</span>
+                <del class="card-original-price">29,99 &euro;</del>
             </div>
         </div>
 
-        <!-- terza immagine con relativi position all'interno-->
+        <div class="card">
+            <!-- Contenitore delle varie immagini della card/prodotto-->
 
-        <div class="content-item">
-            <div class="item third-img back-ground relative">
-                <span class="discount absolute ab-bottom">
-                    30%
-                </span>
-                <span class="heart absolute">
-                    &hearts;
-                </span>
-
-
+            <div class="card-img">
+                <img class="first-img" src="img/3.webp" alt="Foto di una camicia">
+                <img class="second-img" src="img/3b.webp" alt="Seconda foto di una camicia">
+                <div class="card-heart absolute">&hearts;</div>
+                <div class="card-promo absolute">
+                    <span class="card-discount">-30%</span>
+                </div>
             </div>
-            <div class="description">
-                <span class="mention text-small">
-                    Come zucchero filato<br>
-                    <span class="name-item">
-                        VOGLIA DI COLORI PASTELLO
-                    </span>
-                    <br>
-                    <span class="cost text-small">
-                        129€
-                    </span>
 
-                </span>
-            </div>
-        </div>
-        <!-- quarta immagine con relativi position all'interno-->
+            <!-- Contenitore delle varie informazioni  della card/prodotto -->
 
-        <div class="content-item">
-            <div class="item fourth-img back-ground relative">
-                <span class="discount absolute ab-bottom">
-                    50%
-                </span>
-                <span class="sost absolute ab-bottom">
-                    Sostenibilità
-                </span>
-                <span class="heart absolute">
-                    &hearts;
-                </span>
-
-
-            </div>
-            <div class="description">
-                <span class="mention text-small">
-                    Levi's <br>
-                    <span class="name-item">
-                        TEE UNISEX
-                    </span>
-                    <br>
-                    <span class="cost text-small">
-                        14,99€
-                    </span>
-                    <span class="ex-cost text-small">
-                        29.99€
-                    </span>
-
-                </span>
+            <div class="card-text">
+                <span class="card-brand">Zucchero Filato</span>
+                <h3 class="card-product-name">Voglia Di Colori Pastello</h3>
+                <span class="card-price">129,99 &euro;</span>
             </div>
         </div>
 
-        <!-- quinta immagine con relativi position all'interno-->
+        <div class="card">
 
-        <div class="content-item">
-            <div class="item fifth-img back-ground relative">
+            <!-- Contenitore delle varie immagini della card/prodotto-->
 
-                <span class="heart absolute">
-                    &hearts;
-                </span>
-
-
+            <div class="card-img">
+                <img class="first-img" src="img/4.webp" alt="Foto di una camicia">
+                <img class="second-img" src="img/4b.webp" alt="Seconda foto di una camicia">
+                <div class="card-heart absolute">&hearts;</div>
+                <div class="card-promo absolute">
+                    <span class="card-discount">-50%</span>
+                    <span class="card-tag">Sostenibilità</span>
+                </div>
             </div>
-            <div class="description">
-                <span class="mention text-small">
-                    Maya Deluxe <br>
-                    <span class="name-item">
-                        STRIPE BODICE
-                    </span>
-                    <br>
-                    <span class="cost text-small">
-                        99.99€
-                    </span>
 
+            <!-- Contenitore delle varie informazioni  della card/prodotto -->
 
-                </span>
+            <div class="card-text">
+                <span class="card-brand">Levi's</span>
+                <h3 class="card-product-name">Tee Unisex</h3>
+                <span class="card-price">14,99 &euro;</span>
+                <del class="card-original-price">29,99 &euro;</del>
             </div>
         </div>
 
-        <!-- sesta immagine con relativi position all'interno-->
+        <div class="card">
 
-        <div class="content-item">
-            <div class="item sixth-img back-ground relative">
-                <span class="sost only absolute ab-bottom">
-                    Sostenibilità
-                </span>
-                <span class="heart absolute">
-                    &hearts;
-                </span>
+            <!-- Contenitore delle varie immagini della card/prodotto-->
 
-
+            <div class="card-img">
+                <img class="first-img" src="img/5.webp" alt="Foto di una camicia">
+                <img class="second-img" src="img/5b.webp" alt="Seconda foto di una camicia">
+                <div class="card-heart absolute">&hearts;</div>
             </div>
-            <div class="description">
-                <span class="mention text-small">
-                    Esprit<br>
-                    <span class="name-item">
-                        MAGLIONE - BLACK
-                    </span>
-                    <br>
-                    <span class="cost text-small">
-                        29,99€
-                    </span>
 
-                </span>
+            <!-- Contenitore delle varie informazioni descrittive della card/prodotto -->
+
+            <div class="card-text">
+                <span class="card-brand">Maya Deluxe</span>
+                <h3 class="card-product-name">Strip Bodice</h3>
+                <span class="card-price">99,99 &euro;</span>
             </div>
         </div>
-    </section>
+
+        <div class="card">
+
+            <!-- Contenitore delle varie immagini della card/prodotto-->
+
+            <div class="card-img">
+                <img class="first-img" src="img/6.webp" alt="Foto di una camicia">
+                <img class="second-img" src="img/6b.webp" alt="Seconda foto di una camicia">
+                <div class="card-heart absolute">&hearts;</div>
+                <div class="card-promo absolute">
+                    <span class="card-tag">Sostenibilità</span>
+                </div>
+            </div>
+
+            <!-- Contenitore delle varie informazioni descrittive della card/prodotto -->
+
+            <div class="card-text">
+                <span class="card-brand">Esprit</span>
+                <h3 class="card-product-name">Maglione - Black</h3>
+                <span class="card-price">29,99 &euro;</span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

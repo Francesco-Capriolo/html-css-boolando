@@ -1,150 +1,111 @@
-/* reset */
+/* RESET */
+
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-/* contenitore e position*/
+/* contenitore generale*/
 
-#container {
-    margin: auto;
-    width: 1100px;
+body {
+    font-family: sans-serif;
 }
 
-.relative{
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Contenitore delle varie immagini della card/prodotto */
+
+.card {
+    padding: 10px;
+    width: calc((100% / 3) - 4px);
+    display: inline-block;
+}
+
+.card-img {
     position: relative;
+    margin-bottom: 5px;
 }
+
+.card-img img {
+    width: 100%;
+}
+
+.card-img:hover .first-img {
+    display: none;
+}
+
+.card-img .second-img {
+    display: none;
+}
+
+.card-img:hover .second-img {
+    display: inline-block;
+}
+
+/* posizioni del cuore e dello sconto */
 
 .absolute {
     position: absolute;
 }
-.content-item{
-    display: inline-block;
-    margin-bottom: 20px;
-}
-/* varie immagini */
 
-.item {
-    width: 350px;
-    height: 500px;
-    display: inline-block;
-}
-
-.back-ground {
-    Background-size: cover;
-    background-position: center;
-}
-/* prima immagine con hover */
-.first-img {
-    background-image: url(../img/1.webp);
-}
-
-.first-img:hover {
-    background-image: url(../img/1b.webp);
-}
-
-/*  seconda immagine con hover */
-
-.second-img{
-    background-image: url(../img/2.webp);
-}
-
-.second-img:hover{
-    background-image: url(../img/2b.webp);
-}
-
-/* terza immagine */
-
-.third-img{
-    background-image: url(../img/3.webp);
-}
-
-.third-img:hover{
-    background-image: url(../img/3b.webp);
-}
-
-/* quarta immagine */
-
-.fourth-img{
-    background-image: url(../img/4.webp);
-}
-
-.fourth-img:hover{
-    background-image: url(../img/4b.webp);
-}
-
-/* quinta immagine */
-
-.fifth-img{
-    background-image: url(../img/5.webp);
-}
-
-.fifth-img:hover{
-    background-image: url(../img/5b.webp);
-}
-
-/* sesta immagine */
-
-.sixth-img{
-    background-image: url(../img/6.webp);
-}
-
-.sixth-img:hover{
-    background-image: url(../img/6b.webp);
-}
-
-/* sconti */
-
-.discount {
-    left: 0;
-    background-color: red;
-}
-
-.ab-bottom{
-    bottom: 30px;
-    padding: 5px;
-    color: white;
-}
-.sost{
-    background-color: green;
-    left: 40px;
-}
-
-.only {
-    left: 0;
-}
-
-
-/* entity cuore */
-
-.heart{
+.card-heart {
     right: 0;
     top: 20px;
+    font-size: 2rem;
+    padding: 8px 16px;
+    display: inline-block;
     background-color: white;
-    padding: 20px;
-    font-size: 30px;
 }
 
-/* descrizione del prodotto */
-
-.description {
-    top: 500px;
+.card-promo {
+    left: 0;
+    bottom: 25px;
 }
 
-.text-small {
-    font-size: small;
+.card-promo span {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: .75rem;
 }
 
-.name-item {
+.card-discount {
+    background-color: #eb0037;
+}
+
+.card-tag {
+    background-color: #00875a;
+}
+
+
+/* Contenitore delle varie
+ informazioni descrittive della card/prodotto */
+
+.card-text {
+    text-align: left;
+}
+
+.card-product-name {
+    text-transform: uppercase;
+}
+
+.card-text span,
+.card-text del {
+    font-size: .90rem;
+}
+
+.card-price {
+    color: red;
     font-weight: bold;
 }
 
-.cost {
-    color: red;
-}
-
-.ex-cost {
-    text-decoration: line-through;
-}
-
+/* 
+.card-img .first-img{
+    display: inline-block;
+} */
